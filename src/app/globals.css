@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.orange-shadow {
+    filter:drop-shadow(10px 0 30px rgb(255,215,0))
+  }

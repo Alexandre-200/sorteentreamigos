@@ -6,14 +6,15 @@ export default function Resultados() {
 
     return (
         <div className="flex-col mx-auto space-y-4">
-            <div className="flex justify-center items-center border  p-4 bg-blue-500">
+            <div className="flex justify-center items-center p-4 bg-blue-500">
                 <div className="flex flex-col  items-center  ">
                     <p className="flex justify-center text-white uppercase"> Quina de São João 2024 </p>
                     <img
                         className="border border-spacing-2 rounded-lg"
-                        src="lotofacil.png"
+                        src="quina.png"
                         width={300} />
-                    <p className="flex justify-center m-2 text-white uppercase">Data do sorteio: 01/01/2021</p>
+                    <p className="flex justify-center m-2 text-white uppercase">Previsão do prêmio: Em Breve</p>
+                    <p className="flex justify-center m-2 text-white uppercase">Data do sorteio: Em Breve</p>
                     <div className="flex gap-3">
                         {
                             bolasQuina.map((bola) => (
@@ -35,7 +36,8 @@ export default function Resultados() {
                         className="border border-spacing-2 rounded-lg"
                         src="lotofacil.png"
                         width={300} />
-                    <p className="text-center m-2 text-white uppercase">Data do sorteio: 01/01/2021</p>
+                    <p className="flex justify-center m-2 text-white uppercase">Previsão do prêmio: Em Breve</p>
+                    <p className="text-center m-2 text-white uppercase">Data do sorteio: Em Breve</p>
                     <div className="grid grid-cols-5 gap-3">
                         {
                             bolasLotofacil.map((bola) => (
@@ -59,11 +61,12 @@ export default function Resultados() {
                         width={300}
                         alt="Mega-Sena"
                     />
-                    <p className="uppercase text-white">Data do sorteio: 01/01/2021</p>
+                    <p className="flex justify-center m-2 text-white uppercase">Previsão do prêmio: Em Breve</p>
+                    <p className="uppercase text-white">Data do sorteio: Em Breve</p>
                     <div className="flex gap-3">
                         {bolasMega.map((bola, index) => (
                             <p key={index} className="rounded-full bg-white w-12 h-12 flex items-center justify-center border border-black text-black">
-                                {bola}
+                                {""}
                             </p>
                         ))}
                     </div>
