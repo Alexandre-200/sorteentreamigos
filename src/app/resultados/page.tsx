@@ -13,8 +13,9 @@ export default function Resultados() {
                     <p className="flex justify-center text-white uppercase"> Quina de São João 2024 </p>
                     <Image
                         className="border border-spacing-2 rounded-lg"
-                        src="quina.png"
+                        src="/quina.png"
                         width={300} 
+                        height={300}
                         alt="imagem quina"/>
                     <p className="flex justify-center m-2 text-white uppercase">Previsão do prêmio: Em Breve</p>
                     <p className="flex justify-center m-2 text-white uppercase">Data do sorteio: Em Breve</p>
@@ -37,8 +38,9 @@ export default function Resultados() {
                     <p className="text-center uppercase text-white"> Lotofácil de Independência 2024 </p>
                     <Image
                         className="border border-spacing-2 rounded-lg"
-                        src="lotofacil.png"
+                        src="/lotofacil.png"
                         width={300} 
+                        height={300}
                         alt="imagem lotofacil"/>
                     <p className="flex justify-center m-2 text-white uppercase">Previsão do prêmio: Em Breve</p>
                     <p className="text-center m-2 text-white uppercase">Data do sorteio: Em Breve</p>
@@ -61,8 +63,9 @@ export default function Resultados() {
                     <p className="text-center uppercase text-white">Mega-Sena da Virada 2024</p>
                     <Image
                         className="border border-spacing-2 rounded-lg"
-                        src="megasena.png"
+                        src="/megasena.png"
                         width={300}
+                        height={300}
                         alt="Mega-Sena"
                     />
                     <p className="flex justify-center m-2 text-white uppercase">Previsão do prêmio: Em Breve</p>

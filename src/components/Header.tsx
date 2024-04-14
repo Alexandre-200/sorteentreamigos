@@ -18,7 +18,7 @@ export default function Header() {
 
 
                     <Image className="rounded-full orange-shadow"
-                        src="trevo.png"
+                        src="/trevo.png"
                         width={150}
                         height={150}
                         alt="imagem do logo"
