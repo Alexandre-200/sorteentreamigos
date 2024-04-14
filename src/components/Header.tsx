@@ -17,10 +17,11 @@ export default function Header() {
                 <div className="flex justify-center items-center gap-4">
 
 
-                    <img className="rounded-full orange-shadow"
+                    <Image className="rounded-full orange-shadow"
                         src="trevo.png"
-                        width="150px"
-                        height="150px"
+                        width={150}
+                        height={150}
+                        alt="imagem do logo"
                     />
 
                     <MenuItem title="inicio" address="/" Icon={IoHome} />
