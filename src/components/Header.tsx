@@ -1,9 +1,10 @@
 import MenuItem from "./MenuItem";
-import { GoHome } from "react-icons/go";
+import { IoHome } from "react-icons/io5";
 import { FaPhotoVideo } from "react-icons/fa";
 import { FaClipboardList } from "react-icons/fa";
 import Link from "next/link";
 import DarkModeSwitch from "./DarkModeSwitch";
+import { TfiYoutube } from "react-icons/tfi";
 import Image from "next/image";
 
 export default function Header() {
@@ -11,9 +12,12 @@ export default function Header() {
         <div>
             <div className="flex justify-between items-center p-3 max-w-6xl mx-auto">
                 <div className="flex gap-4">
-                    <MenuItem title="inicio" address="/" Icon={GoHome} />
-                    <MenuItem title="videos" address="/videos" Icon={FaPhotoVideo} />
+                    <MenuItem title="inicio" address="/" Icon={IoHome} />
+                   
                     <MenuItem title="resultados" address="/resultados" Icon={FaClipboardList} />
+                    <MenuItem title="videos" address="/videos" Icon={FaPhotoVideo} />
+                    <MenuItem title="canal do youtube" address="https://youtube.com" Icon={TfiYoutube} />
+
                 </div>
                 <div className="flex items-center gap-4">
                     <DarkModeSwitch />
