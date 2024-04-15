@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function () {
+export default function Footer() {
     return (
         <div className="flex flex-col justify-center items-center gap-4">
             <p className=" flex flex-auto text-justify max-w-xs uppercase mt-10">Que a sorte nos sorria, que os números se alinhem e que cada sorteio seja uma chance a mais para realizarmos nossos sonhos</p>
