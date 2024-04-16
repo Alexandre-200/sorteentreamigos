@@ -7,7 +7,7 @@ interface VideoProps {
 
 export default function Video({ videoId, width, height, titulo }: VideoProps) {
     return (
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
             <iframe
                 className="rounded-lg"
                 width={width}
@@ -18,7 +18,7 @@ export default function Video({ videoId, width, height, titulo }: VideoProps) {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
             />
-            <p className="text-center mb-5 mt-2 uppercase text-sm">{titulo}</p>
+            <p className=" mb-5 mt-2 uppercase text-sm max-w-xs flex flex-auto text-justify">{titulo}</p>
         </div>
     )
 }

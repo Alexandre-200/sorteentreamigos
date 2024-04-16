@@ -8,12 +8,7 @@ export default function Home() {
       <div className="gap-5  xl:grid xl:grid-cols-2 " >
 
         <Video videoId="QTAOPD-M5mQ" width={460} height={260} titulo="Conheça os bastidores dos sorteios das Loterias CAIXA" />
-
-        {
-          //<Video videoId="rTj4z2Pur10" width={460} height={260} titulo="teste2" />
-          //<Video videoId="rTj4z2Pur10" width={460} height={260} titulo="teste3" />
-        }
-
+      
       </div>
     </div>
   );
