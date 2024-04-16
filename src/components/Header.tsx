@@ -23,7 +23,7 @@ export default function Header() {
 
                     <MenuItem title="resultados" address="/resultados" Icon={FaClipboardList} />
                     <MenuItem title="videos" address="/videos" Icon={FaPhotoVideo} />
-                    <MenuItem title="canal do youtube" address="https://youtube.com" Icon={TfiYoutube} />
+                    <MenuItem title="canal do youtube" address="https://www.youtube.com/@bolaocomamigos" Icon={TfiYoutube} />
 
                 </div>
                 <div className="flex items-center gap-4">

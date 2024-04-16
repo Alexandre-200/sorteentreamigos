@@ -27,7 +27,7 @@ export default function Card({ titulo, premio, data, foto, bolas, cor, grid }: C
                     {
                         bolas.map((bola) => (
                             <p key={bola} className="rounded-full bg-white text w-12 e h-12 flex items-center justify-center border border-black text-black">
-                                {""}
+                                {"?"}
                             </p>
                         ))
                     }
