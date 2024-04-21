@@ -7,6 +7,8 @@ import DarkModeSwitch from "./DarkModeSwitch";
 import { TfiYoutube } from "react-icons/tfi";
 import Image from "next/image";
 import Audio from "./Audio";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+
 
 export default function Header() {
 
@@ -24,7 +26,7 @@ export default function Header() {
                     <MenuItem title="resultados" address="/resultados" Icon={FaClipboardList} />
                     <MenuItem title="videos" address="/videos" Icon={FaPhotoVideo} />
                     <MenuItem title="canal do youtube" address="https://www.youtube.com/@bolaocomamigos" Icon={TfiYoutube} />
-
+                   
                 </div>
                 <div className="flex items-center gap-4">
 

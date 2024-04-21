@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import Download from "./Download";
 interface CardProps {
     titulo: string,
     premio: string,
@@ -23,7 +24,7 @@ export default function Card({ titulo, premio, data, foto, bolas, cor, grid }: C
                     alt="imagem quina" />
                 <p className="flex justify-center m-2 text-white uppercase">{`Previsão do prêmio: ${premio}`}</p>
                 <p className="text-center m-2 text-white uppercase">{`Data prevista do sorteio: ${data}`}</p>
-                <div className={`grid ${grid} gap-3`}>
+                <div className={`grid ${grid} gap-3 mb-4`}>
                     {
                         bolas.map((bola) => (
                             <p key={bola} className="rounded-full bg-white text w-12 e h-12 flex items-center justify-center border border-black text-black">
@@ -32,6 +33,8 @@ export default function Card({ titulo, premio, data, foto, bolas, cor, grid }: C
                         ))
                     }
                 </div>
+
+                <Download caminho="" nome=""/>
             </div>
         </div>
     )
